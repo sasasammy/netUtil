@@ -1,0 +1,44 @@
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git
+$ git init routerUtil
+Initialized empty Git repository in C:/Users/sammy/git/routerUtil/.git/
+
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git
+$ cd routerUtil/
+
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git/routerUtil (master)
+$ pwd
+/c/Users/sammy/git/routerUtil
+
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git/routerUtil (master)
+$ ls
+ssh_pexpect_v1.py*
+
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git/routerUtil (master)
+$ git add ssh_pexpect_v1.py
+warning: LF will be replaced by CRLF in ssh_pexpect_v1.py.
+The file will have its original line endings in your working directory.
+
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git/routerUtil (master)
+$ git commit -m "route-util init commit"
+[master (root-commit) 42b8431] route-util init commit
+ 1 file changed, 80 insertions(+)
+ create mode 100644 ssh_pexpect_v1.py
+
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git/routerUtil (master)
+$ git remote add origin https://github.com/sasasammy/netUtil.git
+
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git/routerUtil (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 919 bytes | 919.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/sasasammy/netUtil.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+sammy@LAPTOP-JNPDJNTF MINGW64 ~/git/routerUtil (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
